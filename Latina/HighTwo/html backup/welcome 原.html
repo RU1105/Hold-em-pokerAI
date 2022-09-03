@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8" lang="zh-TW" />
+<meta http-equiv="Content-Language" content="zh-tw" />
+<meta name="distribution" content="Taiwan">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="robots" content="none">
+<meta name="viewport" content="width=1920, initial-scale=1">
+	
+<title>專題</title>
+
+<link href="plugin/bootstrap/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="css/css.css" />
+
+	
+<script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>
+	
+
+	
+</head>
+<body>
+<!--  本體開始  -->
+
+
+
+<section> 
+	<div class="main_background">
+		<div class="botton_wrap">
+			<div class="botton_wrap1">
+				Raise<br>加注
+			</div>
+			<div class="botton_wrap2">
+				Call<br>跟注
+			</div>
+			<div class="botton_wrap3">
+				Check<br>讓牌
+			</div>
+			<div class="botton_wrap4">
+				Fold<br>棄牌
+			</div>
+		</div>
+		<div class="main_table">
+			<div class="table_top_wrap">
+				<div class="table_top">
+					<div class="table_top_chip_introduce">剩餘總籌碼：</div>
+					<input type="text" class="table_top_input" value="3000" readonly>
+				</div>
+			</div>
+			<div class="game_table">
+				<div class="game_table_background"></div>
+				<div class="game_table_content">
+					<div class="enemy_card">
+						<div class="enemy_turn">
+							<div></div>
+						</div>	
+						<div class="card_wrap card_transparent" card_type="enemy_card1">
+							<div class="card_positive"></div>
+							<div class="card_negative"></div>
+						</div>
+						<div class="card_wrap card_transparent" card_type="enemy_card2">
+							<div class="card_positive"></div>
+							<div class="card_negative"></div>
+						</div>
+						<div class="enemy_action_wrap">
+							<div class="enemy_action"></div>
+						</div>
+					</div>
+					<div class="enemy_chip">
+						<div class="enemy_chip_img"></div>
+						<div class="enemy_chip_value">$<span>0</span></div>
+					</div>
+					<div class="public_card">
+						<div class="card_stack_wrap">
+							<div class="card_stack">
+								<div class="card_wrap active" card_type="public_card1" style="z-index: 3;">
+									<div class="card_positive"></div>
+									<div class="card_negative"></div>
+								</div>
+								<div class="card_wrap active" card_type="public_card2" style="z-index: 4;">
+									<div class="card_positive"></div>
+									<div class="card_negative"></div>
+								</div>
+								<div class="card_wrap active" card_type="public_card3" style="z-index: 5;">
+									<div class="card_positive"></div>
+									<div class="card_negative"></div>
+								</div>
+								<div class="card_wrap active" card_type="public_card4" style="z-index: 6;">
+									<div class="card_positive"></div>
+									<div class="card_negative"></div>
+								</div>
+								<div class="card_wrap active" card_type="public_card5" style="z-index: 7;">
+									<div class="card_positive"></div>
+									<div class="card_negative"></div>
+								</div>
+								<div class="card_wrap active" card_type="enemy_card1">
+									<div class="card_positive"></div>
+									<div class="card_negative"></div>
+								</div>
+								<div class="card_wrap active" card_type="enemy_card2">
+									<div class="card_positive"></div>
+									<div class="card_negative"></div>
+								</div>
+								<div class="card_wrap active" card_type="my_card1">
+									<div class="card_positive"></div>
+									<div class="card_negative"></div>
+								</div>
+								<div class="card_wrap active" card_type="my_card2">
+									<div class="card_positive"></div>
+									<div class="card_negative"></div>
+								</div>
+								<div class="card_wrap active card_stack_position">
+									<div class="card_positive"></div>
+									<div class="card_negative"></div>
+								</div>
+							</div>
+						</div>
+						<div class="card_wrap active card_transparent" card_type="public_card1">
+							<div class="card_positive"></div>
+							<div class="card_negative"></div>
+						</div>
+						<div class="card_wrap active card_transparent" card_type="public_card2">
+							<div class="card_positive"></div>
+							<div class="card_negative"></div>
+						</div>
+						<div class="card_wrap active card_transparent" card_type="public_card3">
+							<div class="card_positive"></div>
+							<div class="card_negative"></div>
+						</div>
+						<div class="card_wrap active card_transparent" card_type="public_card4">
+							<div class="card_positive"></div>
+							<div class="card_negative"></div>
+						</div>
+						<div class="card_wrap active card_transparent" card_type="public_card5">
+							<div class="card_positive"></div>
+							<div class="card_negative"></div>
+						</div>
+					</div>
+
+					<div class="my_chip">
+						<div class="my_chip_img"></div>
+						<div class="my_chip_value">$<span>0</span></div>
+					</div>
+					<div class="my_card">
+						<div class="my_turn">
+							<div></div>
+						</div>
+						<div class="card_wrap active card_transparent" card_type="my_card1">
+							<div class="card_positive"></div>
+							<div class="card_negative"></div>
+						</div>
+						<div class="card_wrap active card_transparent" card_type="my_card2">
+							<div class="card_positive"></div>
+							<div class="card_negative"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="table_bottom_wrap">
+				<div class="table_bottom">
+					<div class="table_bottom_chip_introduce">剩餘總籌碼：</div>
+					<input type="text" class="table_bottom_input" value="3000" readonly>
+				<div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="chip_form_wrap">
+		<div class="chip_form_background">
+			<div class="chip_form">
+				<div class="chip_raise_wrap">
+					<div class="chip_raise_title">加注金額</div>
+					<div class="chip_raise">0</div>
+				</div>
+				<div class="chip_botton_wrap">
+					<div class="chip_botton">10</div>
+					<div class="chip_botton">50</div>
+					<div class="chip_botton">100</div>
+				</div>
+				<div class="chip_botton_decide">
+					<div class="chip_botton_cancel">取消</div>
+					<div class="chip_botton_confirm">確認</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fold_form_wrap">
+		<div class="fold_form_background">
+			<div class="fold_form">
+				<div class="fold_botton_decide">
+					<div class="fold_botton_cancel">取消</div>
+					<div class="fold_botton_confirm">確認</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+</section>
+
+<script>
+	//初始化雙方籌碼      小手段重置remind
+	$('.table_bottom_input').val(3000);
+	$('.table_top_input').val(3000);
+</script>
+
+<script src="js/js.js"></script>
+<!--  本體結束  -->
+</body>
+</html>

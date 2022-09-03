@@ -1,0 +1,1 @@
+$.preload('img/indexslider/indexslider1.png','img/indexslider/indexslider2.png','img/indexslider/indexslider3.png');

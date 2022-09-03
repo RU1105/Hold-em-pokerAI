@@ -1,0 +1,534 @@
+
+.main_background{
+display: flex;
+width: 100%;
+height: 100%;
+position: absolute;
+background-image: url(../images/wmnhwkmqy.jpeg);
+}
+
+.botton_wrap{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 20%;
+height: 100%;
+
+}
+
+.botton_wrap1{
+text-align: center;
+transition: all 0.3s ease-in-out;
+font-size: 3vw;
+font-weight: bold;
+color: #333;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+width: calc(100% - 100px);
+height: calc(25% - 60px);
+margin: 30px 0;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: green;
+background-position: center center;
+border-radius: 50%;
+}
+.botton_wrap1:hover{
+color: yellow;
+}
+.botton_wrap2{
+text-align: center;
+transition: all 0.3s ease-in-out;
+font-size: 3vw;
+font-weight: bold;
+color: #333;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+width: calc(100% - 100px);
+height: calc(25% - 60px);
+margin: 30px 0;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: green;
+background-position: center center;
+border-radius: 50%;
+}
+.botton_wrap2:hover{
+color: yellow;
+}
+.botton_wrap3{
+text-align: center;
+transition: all 0.3s ease-in-out;
+font-size: 3vw;
+font-weight: bold;
+color: #333;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+width: calc(100% - 100px);
+height: calc(25% - 60px);
+margin: 30px 0;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: green;
+background-position: center center;
+border-radius: 50%;
+}
+.botton_wrap3:hover{
+color: yellow;
+}
+.botton_wrap4{
+text-align: center;
+transition: all 0.3s ease-in-out;
+font-size: 3vw;
+font-weight: bold;
+color: #333;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+width: calc(100% - 100px);
+height: calc(25% - 60px);
+margin: 30px 0;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: yellow;
+background-position: center center;
+border-radius: 50%;
+}
+.botton_wrap4:hover{
+color: red;
+}
+
+.main_table{
+width: 80%;
+height: 100%;
+}
+.table_top_wrap{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 15%;
+}
+.table_top{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+border: 2px solid green;
+height: 40px;
+padding: 0 15px;
+}
+.table_top_chip_introduce{
+font-size: 18px;
+font-weight: bold;
+}
+.table_top_input{
+text-align: center;
+font-size: 24px;
+width: 57px;
+height: 40px;
+border: 0;
+background-color: transparent;
+text-align: left;
+}
+.table_top_input:hover, .table_top_input:focus{
+border: 0;
+outline: 0;
+}
+.game_table_background{
+width: 100%;
+height: 100%;
+position: absolute;
+background-color: #930000;
+border-radius: 500px;
+}
+.table_bottom_wrap{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 15%;
+}
+.table_bottom{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+border: 2px solid green;
+height: 40px;
+padding: 0 15px;
+}
+.table_bottom_chip_introduce{
+font-size: 18px;
+font-weight: bold;
+}
+.table_bottom_input{
+text-align: center;
+font-size: 24px;
+width: 57px;
+height: 40px;
+border: 0;
+background-color: transparent;
+text-align: left;
+}
+.table_bottom_input:hover, .table_bottom_input:focus{
+border: 0;
+outline: 0;
+}
+.game_table{
+display: flex;
+justify-content: center; /*���k�m��*/
+align-items: center;
+width: 100%;
+height: 70%;
+position: relative;
+background-image: url(../images/gametable.png);;
+background-repeat: no-repeat;
+background-size: auto 100%;
+background-position: center center;
+}
+.game_table_content{
+width: 100%;
+height: 100%;
+position: relative;
+z-index: 2;
+}
+.enemy_card{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 25%;
+}
+.enemy_turn{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 250px;
+height: 100%;
+padding-left: 150px;
+}
+.enemy_turn div{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: gray;
+}
+.enemy_turn.active div{
+background: green;
+}
+.enemy_action_wrap{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 250px;
+height: 100%;
+}
+.enemy_action{
+transition: all 1.25s ease;
+color: #007500;
+font-size: 72px;
+text-shadow: 5px 2px 3px yellow;
+transform: rotate(15deg);
+opacity: 0;
+}
+.enemy_action.active{
+opacity: 1;
+}
+.enemy_chip{
+display: flex;
+align-items: center; /*�W�U�m��*/
+width: 100%;
+height: 12.5%;
+padding-left: 450px;
+}
+.enemy_chip_img{
+width: 100px;
+height: 80%;
+background-image: url(../images/chip.png);;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center center;
+}
+.enemy_chip_value{
+font-size: 48px;
+font-weight: bold;
+color: yellow;
+padding-left: 25px;
+}
+.public_card{
+position: relative;
+display: flex;
+align-items: center;
+width: 100%;
+height: 25%;
+padding-left: 401.55px;
+}
+.card_stack_wrap{
+justify-content: center;
+display: flex;
+align-items: center;
+width: 401.55px;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+}
+.card_stack{
+width: 146.5814px; /* 128�e/149�� * 170.63 */
+height: 100%;
+position: relative;
+}
+.card_stack .card_wrap{
+position: absolute;
+top: 0;
+left: 0;
+transition: all 1s ease-in-out;
+}
+.my_chip{
+display: flex;
+align-items: center; /*�W�U�m��*/
+width: 100%;
+height: 12.5%;
+padding-left: 450px;
+}
+.my_chip_img{
+width: 100px;
+height: 80%;
+background-image: url(../images/chip.png);;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center center;
+}
+.my_chip_value{
+font-size: 48px;
+font-weight: bold;
+color: yellow;
+padding-left: 25px;
+}
+.my_card{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 25%;
+padding-right: 100px;
+}
+.my_turn{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100px;
+height: 100%;
+}
+.my_turn div{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: gray;
+}
+.my_turn.active div{
+background: green;
+}
+.card_wrap{
+width: 146.5814px; /* 128�e/149�� * 170.63 */
+height: 100%;
+position: relative;
+}
+.card_wrap.card_transparent{
+opacity: 0;
+}
+.card_positive{
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center center;
+position: absolute;
+top: 0px;
+left: 0px;
+transition: all 0.8s ease-in-out;
+z-index: 1;
+transform: rotateY(180deg);
+}
+.card_wrap.active .card_positive{
+transform: rotateY(360deg);
+z-index: 2;
+}
+.card_negative{
+background-image: url(../images/cardback.png);;
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center center;
+position: absolute;
+top: 0px;
+left: 0px;
+transition: all 0.8s ease-in-out;
+z-index: 2;
+}
+.card_wrap.active .card_negative{
+transform: rotateY(180deg);
+z-index: 1;
+}
+
+/*�H�U�O���*/
+
+.chip_form_wrap{
+display: none;
+position: absolute;
+z-index: 999;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+.chip_form_background{
+background-color: rgba(0,0,0,0.75);
+width: 100%;
+height: 100%;
+}
+.chip_form{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+}
+.chip_raise_wrap{
+display: flex;
+flex-direction: column;
+width: 300px;
+height: 100px;
+border: 5px white solid;
+background-color: #642100;
+border-radius: 10px;
+padding: 7px 0px;
+}
+.chip_raise_title{
+width: 100%;
+height: 40px;
+font-size: 36px;
+color: #A6FFFF;
+display: flex;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+line-height: 1;
+padding-bottom: 4px;
+}
+.chip_raise{
+width: 100%;
+height: 36px;
+font-size: 36px;
+color: yellow;
+display: flex;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+line-height: 1;
+}
+.chip_enter_wrap{
+width: 100%;
+display: flex;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+margin: 25px 0px;
+}
+.chip_botton{
+display: flex;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+width: 300px;
+height: 100px;
+background-color: yellow;
+margin: 0 30px;
+border-radius: 50px;
+font-size: 52px;
+cursor: pointer;
+}
+.chip_botton_decide{
+display: flex;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+width: 100%;
+}
+.chip_botton_cancel{
+display: flex;
+width: 300px;
+height: 100px;
+margin: 0 30px;
+background-color: gray;
+border: 5px white solid;
+border-radius: 10px;
+font-size: 48px;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+font-weight: bold;
+cursor: pointer;
+}
+.fold_form_wrap{
+display: none;
+position: absolute;
+z-index: 999;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+.fold_form_background{
+background-color: rgba(0,0,0,0.75);
+width: 100%;
+height: 100%;
+}
+.fold_form{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+}
+.fold_botton_decide{
+display: flex;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+width: 100%;
+}
+.fold_botton_cancel{
+display: flex;
+width: 300px;
+height: 100px;
+margin: 0 30px;
+background-color: gray;
+border: 5px white solid;
+border-radius: 10px;
+font-size: 48px;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+font-weight: bold;
+cursor: pointer;
+}
+.fold_botton_confirm{
+display: flex;
+width: 300px;
+height: 100px;
+margin: 0 30px;
+background-color: green;
+border: 5px white solid;
+border-radius: 10px;
+font-size: 48px;
+justify-content: center; /*���k�m��*/
+align-items: center; /*�W�U*/
+color: yellow;
+font-weight: bold;
+cursor: pointer;
+}

@@ -1,0 +1,10 @@
+post small blind = 0
+post big blind = 1
+raise = 2
+call = 3
+check = 4
+bet = 5
+show = 6
+muck = 7
+fold = 8
+all_in = 9
